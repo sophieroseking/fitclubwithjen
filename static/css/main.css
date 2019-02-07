@@ -1,0 +1,81 @@
+body {
+    background-image: url("http://www.soulalchemy.net.au/wp-content/uploads/2016/04/green-food-detox.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+}
+
+/* Nav */
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active {
+    color: #FF69B4;
+}
+
+.nav-item {
+    font-size: 2em;
+}
+
+
+.fitclub-logo {
+    height: 5em;
+    width: 5em;
+
+}
+
+/* Main wrapper */
+
+.central-strip {
+    background-color: rgba(255, 255, 255, 0.7);
+    min-height: 100vh;
+    position: static;
+}
+
+/*carbs */
+
+.conversion-chart {
+    width: 100%;
+}
+
+/* Protein */
+
+.btn {
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 2px;
+}
+
+.btn:hover {
+    background-color: #FF69B4;
+}
+
+.protein-modals {
+    text-align: center;
+    
+}
+
+/*Footer*/
+
+footer {
+    text-align: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+
+.fa-github {
+    color: #FF69B4;
+}
+
+.fa-github:hover {
+    color: white;
+}
