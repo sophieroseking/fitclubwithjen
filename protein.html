@@ -24,17 +24,17 @@
 
         <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="carbs.html">Complex Carbs</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item  active">
                     <a class="nav-link" href="protein.html">Protein <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Healthy fats</a>
+                    <a class="nav-link" href="fats.html">Healthy fats</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Vegetables</a>
@@ -50,116 +50,113 @@
     </nav>
 
     <main>
-        <div class="container-fluid central-strip col-xs-12 col-lg-8 justify-content-center">
-            <h1>Protein</h1>
-            <h2>PROTEIN OPTIONS</h2>
+        <div class="container-fluid central-strip col-xs-12 col-lg-8">
+            <div>
+                <h1>PROTEIN OPTIONS</h1><br />
+            </div>
+            <div class="row justify-content-center">
+                <button type="button" class="btn btn-primary btn-lg col-sm-8" data-toggle="modal" data-target="#whiteProteinModal">White</button>
+                <button type="button" class="btn btn-primary btn-lg col-sm-8" data-toggle="modal" data-target="#orangeProteinModal">Orange</button>
+                <button type="button" class="btn btn-primary btn-lg col-sm-8" data-toggle="modal" data-target="#redProteinModal">Red</button>
+                <button type="button" class="btn btn-primary btn-lg col-sm-8" data-toggle="modal" data-target="#vegetarianProteinModal">Vegetarian</button>
 
-            <div class="row justify-content-center protein-modals">
-                <button type="button" class="btn btn-primary col-3" data-toggle="modal" data-target=".bd-example-modal-lg">White protein</button>
-                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <h2>White Protein</h2>
+            </div>
+
+            <div id="whiteProteinModal" class="modal fade" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">White</div>
+                        <div class="modal-body">
                             <ul>
                                 <li>Skinless Chicken Breast</li>
-
                                 <li>Turkey Breast</li>
-
                                 <li>Turkey Breast mince</li>
-
                                 <li>White Fish (cod, tilapia, haddock, Pollock etc)</li>
-
-                                <li>King Prawn / prawns / shrimps (add 50g more per 100g white protein)</li>
-
+                                <li>King Prawns / prawns / shrimps (add 50g more per 100g white protein)</li>
                                 <li>Squid</li>
-
                                 <li>Octopus</li>
-
                                 <li>Scallops</li>
-
                                 <li>Fresh Tuna</li>
-
                                 <li>Tinned tuna (water packed in spring water)</li>
-
                                 <li>6 egg whites = 100-110g white protein</li>
-
                                 <li>30g protein powder</li>
-
                                 <li>150-170g low fat Dairy option (see dairy list)</li>
-
                                 <li>Seitan (homemade 35g Vital Wheat Gluten flour , stock cube & soy sauce)</li>
-
                                 <li>Plain Tofu (fat below 4g per 100g)</li>
                             </ul>
                         </div>
-                    </div>
-                </div>
-
-                <button type="button" class="btn btn-primary col-3" data-toggle="modal" data-target=".bd-example-modal-lg">Red protein</button>
-                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <h2>White Protein</h2>
-                            <ul>
-                                <li>Skinless Chicken Breast</li>
-
-                                <li>Turkey Breast</li>
-
-                                <li>Turkey Breast mince</li>
-
-                                <li>White Fish (cod, tilapia, haddock, Pollock etc)</li>
-
-                                <li>King Prawn / prawns / shrimps (add 50g more per 100g white protein)</li>
-
-                                <li>Squid</li>
-
-                                <li>Octopus</li>
-
-                                <li>Scallops</li>
-
-                                <li>Fresh Tuna</li>
-
-                                <li>Tinned tuna (water packed in spring water)</li>
-
-                                <li>6 egg whites = 100-110g white protein</li>
-
-                                <li>30g protein powder</li>
-
-                                <li>150-170g low fat Dairy option (see dairy list)</li>
-
-                                <li>Seitan (homemade 35g Vital Wheat Gluten flour , stock cube & soy sauce)</li>
-
-                                <li>Plain Tofu (fat below 4g per 100g)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <button type="button" class="btn btn-primary col-3" data-toggle="modal" data-target=".bd-example-modal-lg">Orange protein</button>
-                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <h2>Orange Protein</h2>
-                            <ul>
-                                <li>Salmon</li>
-
-                                <li>Mackerel – 1 x per week max</li>
-
-                                <li>Herring</li>
-
-                                <li>Sardines</li>
-
-                                <li>Trout</li>
-
-                                <li>Tofu (below 10g fat per 100g )</li>
-
-<p>If you do not like Orange protein just use ‘White’ plus 1 extra TEASPOON ‘healthy’ fats</p>
-                            
-                            </ul>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div id="orangeProteinModal" class="modal fade" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">Orange</div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Salmon</li>
+                                <li>Mackerel – 1 x per week max</li>
+                                <li>Herring</li>
+                                <li>Sardines</li>
+                                <li>Trout</li>
+                                <li>Tofu (below 10g fat per 100g ) </li>
+                            </ul>
+                            <p>If you do not like Orange protein just use ‘White’ plus 1 extra TEASPOON ‘healthy’ fats</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="redProteinModal" class="modal fade" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">Red</div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Lean steak</li>
+                                <li>Venison</li>
+                                <li>Lean Pork loin</li>
+                                <li>Lean lamb</li>
+                            </ul>
+                            <p>All ‘Red’ proteins aim for less than 8g fat per 100g, sausages, burgers, meatballs are not acceptable if high fat content, you may incorporate into your diet if you are macro tracking. Trim fats off meats.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="vegetarianProteinModal" class="modal fade" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">Vegetarian</div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Seitan (homemade 35g Vital Wheat Gluten flour , stock cube & soy sauce)</li>
+                                <li>Low fat Cottage Cheese (one portion is small tub av size 200g)</li>
+                                <li>Quark (one portion is small tub av size 200g)</li>
+                                <li>Total 0% fat greek yoghurt (one portion is small tub 170g)</li>
+                                <li>6 egg whites</li>
+                                <li>1.5 scoops Casein</li>
+                                <li>1.5 scoops Whey / hemp / pea / vegan protein</li>
+                            </ul>
+                            <p>If you are vegan or vegetarian it is better you macro track your foods. Most vegan protein sources are incomplete, please make sure you understand how to food combine amino acids.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     </main>
